@@ -4,7 +4,7 @@ def zagniezdz(lista):
         zagniezdzenie = liczba
         for _ in range(liczba - 1):
             zagniezdzenie = [zagniezdzenie]
-        zagniezdzone.append(zagniezdzenie)
+        zagniezdzone.append([zagniezdzenie])  # Dodajemy dodatkowy poziom zagnieżdżenia
     return zagniezdzone
 
 # Testowanie:
